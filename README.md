@@ -24,14 +24,14 @@ If you're using VagrantFile, it will automatically install the necessary Docker 
 ```sh
 git clone https://github.com/sarath-pm/Vagrant-DockerCompose-LEMP-Wordpress.git
 cd docker-compose-lemp-wordpress
-docker-compose up -d               <----------- used for up 3 containers and docker network, volume (-d it's running a detached mode)
+docker-compose up -d  # Create containers, network & volume ("-d"  running container in detached mode)
 ```
 _please refer to this docker commands which you can see the installed container, network, volume details_
 ```sh
-docker-compose ps                  <---------------- Please note that this command only works with the installation directory
-docker network ls                  <---------------- Network list which you used
-docker volume ls                   <---------------- Volume list which you used.
-docker-compose down -v             <---------------- if you need to remove all containers and volumes using these commands (Please note that this command only works with the installation directory)
+docker-compose ps         # List Process status (Please note that this command only works with the installation directory)
+docker network ls         # List Network
+docker volume ls          # List volume
+docker-compose down -v    # Remove all containers & volumes using these commands (Please note that this command only works with the installation directory)
 ```
  
 
@@ -40,7 +40,7 @@ docker-compose down -v             <---------------- if you need to remove all c
 
 
 ## License
-This project is [unlicensed]()
+This project is [unlicensed](https://github.com/sarath-pm/Vagrant-DockerCompose-LEMP-Wordpress/blob/main/LICENSE)
 
 ## Author
 [Sarath P M](sarath-pm.github.io)
