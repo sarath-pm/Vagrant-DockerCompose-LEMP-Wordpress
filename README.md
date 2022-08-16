@@ -28,7 +28,7 @@ _Note: Ensure Docker is installed and configured before  running this command._
 
 ```sh
 git clone https://github.com/sarath-pm/Vagrant-DockerCompose-LEMP-Wordpress.git
-cd docker-compose-lemp-wordpress
+cd Vagrant-DockerCompose-LEMP-Wordpress
 docker-compose up -d  # Create containers, network & volume ("-d"  running container in detached mode)
 ```
 _please refer to this docker commands which you can see the installed container, network, volume details_
