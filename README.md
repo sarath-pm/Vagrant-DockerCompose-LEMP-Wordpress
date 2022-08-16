@@ -15,11 +15,16 @@ If you are new to Docker check out the docker [documentation](https://docs.docke
 
 > You can checkout [play with Docker](https://labs.play-with-docker.com/) which already has compose and docker installed. It is made of Alpine OS and has a terminal-like appearance. Since it is just used for educational purposes, you may use the 4 hours of the session without any additional installation.
 
-## Docker-compose Usage
+## Usage
 
-Before moving on to this step, ensure that Docker is configured properly. 
+I created two types of VagrantFile
+- [VagrantFile](https://github.com/sarath-pm/Vagrant-DockerCompose-LEMP-Wordpress/tree/main/VagarantFile%20to%20Install%20Docker) ---> Ready to use VagrantFile with Wordpresss and LEMP containers deployed.
+- [VagrantFile](https://github.com/sarath-pm/Vagrant-DockerCompose-LEMP-Wordpress/tree/main/VagrantFile%20to%20deploy%20wordpress%20%2B%20LEMP) ---> Docker installed and configured. We need to manually configure the Docker.
 
-If you're using VagrantFile, it will automatically install the necessary Docker setup so that you can execute the commands below: 
+
+For manually docker deployment, follow the instructions below:
+
+_Note: Ensure Docker is installed and configured before  running this command._
 
 ```sh
 git clone https://github.com/sarath-pm/Vagrant-DockerCompose-LEMP-Wordpress.git
